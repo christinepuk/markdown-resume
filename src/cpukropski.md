@@ -24,30 +24,31 @@ christine (at) christinepuk.net\
 
 #### Senior SRE, _Akamai_, Philadelphia `Sept. 2023 - Present`
 
-- Currently leading the effort to deploy "Devcloud": an isolated linode environment to enable teams to have a private cloud to build pre-prod environments for their CI/CD pipelines
-- Kept all changes inline with production, so this environment remains as close to production as possible
-- Deployed various systems in devcloud suchas our internal API, Backups, Login, and served as interim DBA
-- Managed several "chicken and egg" problems in Devcloud and technical dependency mgmt 
-- Enabled local developlement using ansible, vagrant and salt to replicate "prod" locally (this was the first time this was done for SRE owned assets)
-- Migated a Sev 1 incident by intiating and driving through completion a "Cert Expiry Project" that ensured our environment was migrated to our new CA, this included our central DB.
+- Currently leading the effort to deploy "Devcloud": an isolated Linode environment to enable teams to have a private cloud to build pre-prod environments for their CI/CD pipelines
+- Kept all changes in-line with production, so this environment remains as close to production as possible
+- Deployed various systems in Devcloud such as our internal API, Backups, Login, and served as interim DBA
+- Managed several "chicken and egg" problems in Devcloud and technical dependency management
+- Enabled local development using ansible, vagrant and salt to replicate "prod" locally (this was the first time this was done for SRE owned assets)
+- Migated a Sev 1 incident by initiating and driving through the completion the "Cert Expiry Project" that ensured our environment was migrated to our new CA, this included our central DB.
 - SME For various systems: Salt, Terraform, Internal Infra, Storage, Reverse proxies
-- Create a "phase 0" incident process to augment the "classic akamai" incident process
+- Created a "phase 0" incident process to augment the "classic akamai" incident process
+- Particiated in on-call
 
 #### SRE II, _Akamai_, Philadelphia, PA `Nov. 2022 - Sept. 2023`
 
-- Led the effort to deploy 14+ datacenters in one year (this was more than we had at the time) and tripled our compute capacity
-- Led the automation effort to enable us to do the datacenter deployments
-- Built automation into our wrapper around the public linode terraform provider to enforce naming, dns, IP format, toolings, etc. standards
-- Automation was multipronged but the goal was to "highstate" and elminate all manual tasks
-- Process was find the tasks to be done, document them in LDAT, work through step by step to remove all toil. Used various tools such as salt, python, terraform, bash, adding endpoints
+- Led the effort to deploy and scale the deployment of 14+ Datacenters in one year (this was more than we had at the time) and tripled our compute capacity
+- Led the automation effort to enable us to do the datacenter deployments in parallel
+- Developed the "LDAT" process to standardize Datacenter infrastructure deployments. This has since been copied and used by other parts of the company. This managed all aspects from documentation, technical dependencies, resource mgmt., bootstrapping infra. It allows multiple Datacenters to be deployed in parallel. Time to Deployment went from 5 months to 1 month. The SRE portion from 3 Weeks to 1 day.
+- Built automation into our wrapper around the public linode terraform provider to enforce naming, dns, IP format, toolings, etc. standards. DC Deployment Automation was multipronged but the goal was to "highstate" and eliminate all manual tasks. The process was to find the tasks to be done, order them in relation to thier dependencies document them in LDAT, work through step by step to remove all toil. Used various tools such as salt, python, terraform, bash, adding endpoints
 - Moved our certificates to auto-rotate using a salt runner and vault integration
 - Moved our manual mTLS certificate process to be automated using the above tooling and collaborating with our dev team to change how the auth worked
-- Developed the "LDAT" process to standardize Datacenter infrastructure deployments. This has since been copied and used by other parts of the company. This managed all aspects from documentation, technical dependencies, resource mgmt., bootstrapping infra. It allows multiple Datacenters to be deployed in parrallel. Time to Deployment went from 5 months to 1 month. The SRE portion from 3 Weeks to 1 day.
+- Particiated in on-call
  
 #### Site Reliability Engineer, _Akamai_, Philadelphia, PA `March 2022 - Nov. 2022`
 
 - Deployed NVMe Clusters for Object Storage
 - moved from the Storage to SRE Linux and helped setup broad team structures in our various tools
+- Particiated in on-call
 
 
 ### Linode
@@ -61,12 +62,13 @@ christine (at) christinepuk.net\
 - Deployed NVMe-based Block Storage Clusters in all Datacenters (and the process to do so)
 - Developed NFT Tables and FRR salt state to use in those efforts and beyond
 - Built and deployed customer guest images using packer and deployed to the fleet of compute hosts same day of distro release
+- Particiated in on-call
  
 #### Junior Systems Engineer, _Linode_, Philadelphia, PA `Dec. 2019 - June 2020`
 - Rebuilt our "loadbal" (nginx reverse proxy) machines that sits in front of all critical assets (api, cloud, login, website)
 - Rebuilt our "stats" boxes that deliver basic network information about a customers linode via rdd to our api 
 - Implemented "vizalerts" for the customer success team that integrated with our Tableau Instance 
-- Owned Certificate Managemt, Tableau, and all critical public facing infra
+- Owned Certificate Management, Tableau, and all critical public facing infra
 - Particiated in on-call
 
 
@@ -122,13 +124,10 @@ Activities and societies: Bhakti Club, NJ Film Festival, Anthologist Literature 
 
 **2020** [Behind the Scenes: Sharing Inspiration from 6 Female & Non-Binary Linodians](https://www.linode.com/blog/linode/behind-the-scenes-sharing-inspiration-from-6-female-non-binary-linodians/)
 
-## Employee Resoure Groups
-
-At linode I created the first ERG 'Intersect' in 2018, when women made up less than 5% of the company. We grew and retained several women, non-binary, and trans folks and made a cross department community that thrives to this day. We pushed for policy changes such as improving our parental leave to adding pronouns in Slack.
-
-With a small collaition, I created a framework for future ERGs to be created. This carried over to the aquisition, where Intersect was expanded into 'Out@Akamai'. 
-
-After the aquisition, I decided to lend my efforts to the disability ERG _In Reach_ and took the position of Chair in Jan 2023. I brought the frameworks I created previously and adjusted them to _In Reach_ and helped oversee and merge the US and India Geo into a larger collaborative team. I am currently the US Geo Chair for the ERG.
+## Employee Resource Groups
+At Linode, I created the first ERG, ‘Intersect,’ in 2018, when women made up less than 5% of the company. We grew and retained several women, non-binary, and trans folks and created a cross-department community that thrives to this day. We pushed for policy changes, such as improving parental leave and adding pronouns in Slack.
+With a small collection, I created a framework for future ERGs to be created. This carried over to the acquisition, where Intersect was expanded into ‘Out@Akamai’.
+After the acquisition, I decided to lend my efforts to the disability ERG In Reach and took the position of Chair in Jan 2023. I brought the frameworks I created previously and adjusted them to In Reach and helped oversee and merge the US and India Geo into a larger collaborative team. I am currently the US Geo Chair for the ERG.
 
 ## Skills
 Linux, Bash, Python, CI/CD, Ceph, mTLS, Terraform, Saltstack, Orchestration at Scale, Hypervisors (qemu, kvm)
