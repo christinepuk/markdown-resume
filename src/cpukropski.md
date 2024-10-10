@@ -133,4 +133,4 @@ After the acquisition, I decided to lend my efforts to the disability ERG In Rea
 Linux, Bash, Python, CI/CD, Ceph, mTLS, Terraform, Saltstack, Orchestration at Scale, Hypervisors (qemu, kvm)
 
 ## Interests
-DIY, Hiking, Nature, Music (Folk, Experimental, Clasical), Linux, HAM, Literature, Birding, My Cats 
+Running, DIY, Hiking, Nature, Music (Folk, Experimental, Clasical), Linux, HAM, Literature, Birding, My Cats 
